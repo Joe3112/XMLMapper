@@ -52,8 +52,15 @@ public class XMLSerialization {
         }
         
         // Parsing xmlString as a Dictionary if XML declaration exists
-        if xmlString.contains("<?xml") {
+        if xmlString.starts(with: "<?xml") {
             let xmlData = try data(fromString: xmlString, using: encoding)
+            guard let xmlObject = try XMLObjectParser.dictionary(with: xmlData, options: options) else {
+                throw XMLSerializationError.invalidData
+            }
+            return xmlObject
+        } else if xmlString.contains("<?xml") {
+            let cleanXmlString = xmlString.replacingOccurrences(of: "ï»¿", with: "")
+            let xmlData = try data(fromString: cleanXmlString, using: encoding)
             guard let xmlObject = try XMLObjectParser.dictionary(with: xmlData, options: options) else {
                 throw XMLSerializationError.invalidData
             }
