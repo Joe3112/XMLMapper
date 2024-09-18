@@ -147,6 +147,10 @@
 		9F34A99F2037812300BB2EBA /* BasicTypesTestsFromXML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F34A96F2037812200BB2EBA /* BasicTypesTestsFromXML.swift */; };
 		9F34A9A02037812300BB2EBA /* BasicTypesTestsFromXML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F34A96F2037812200BB2EBA /* BasicTypesTestsFromXML.swift */; };
 		9F34A9A12037812300BB2EBA /* BasicTypesTestsFromXML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F34A96F2037812200BB2EBA /* BasicTypesTestsFromXML.swift */; };
+		9F3CF05920F5F17C00EB0ABA /* Array+cdataString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3CF05820F5F17C00EB0ABA /* Array+cdataString.swift */; };
+		9F3CF05A20F5F17C00EB0ABA /* Array+cdataString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3CF05820F5F17C00EB0ABA /* Array+cdataString.swift */; };
+		9F3CF05B20F5F17C00EB0ABA /* Array+cdataString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3CF05820F5F17C00EB0ABA /* Array+cdataString.swift */; };
+		9F3CF05C20F5F17C00EB0ABA /* Array+cdataString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3CF05820F5F17C00EB0ABA /* Array+cdataString.swift */; };
 		9F47BD5D20D6C352006DBCA2 /* Dictionary+mapValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F47BD5C20D6C352006DBCA2 /* Dictionary+mapValues.swift */; };
 		9F47BD5E20D6C352006DBCA2 /* Dictionary+mapValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F47BD5C20D6C352006DBCA2 /* Dictionary+mapValues.swift */; };
 		9F47BD5F20D6C352006DBCA2 /* Dictionary+mapValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F47BD5C20D6C352006DBCA2 /* Dictionary+mapValues.swift */; };
@@ -171,6 +175,10 @@
 		9F914589203A10B3006FC76B /* XMLDictionaryTransformTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F914588203A10B3006FC76B /* XMLDictionaryTransformTests.swift */; };
 		9F91458A203A10B3006FC76B /* XMLDictionaryTransformTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F914588203A10B3006FC76B /* XMLDictionaryTransformTests.swift */; };
 		9F91458B203A10B3006FC76B /* XMLDictionaryTransformTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F914588203A10B3006FC76B /* XMLDictionaryTransformTests.swift */; };
+		9F93CA6020F4C9BF00E59D88 /* XMLCDATATransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F93CA5F20F4C9BF00E59D88 /* XMLCDATATransform.swift */; };
+		9F93CA6120F4C9BF00E59D88 /* XMLCDATATransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F93CA5F20F4C9BF00E59D88 /* XMLCDATATransform.swift */; };
+		9F93CA6220F4C9BF00E59D88 /* XMLCDATATransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F93CA5F20F4C9BF00E59D88 /* XMLCDATATransform.swift */; };
+		9F93CA6320F4C9BF00E59D88 /* XMLCDATATransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F93CA5F20F4C9BF00E59D88 /* XMLCDATATransform.swift */; };
 		9FEAB85C207CF63F004BCA7B /* XMLMappableTypesWithTransformsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEAB85B207CF63F004BCA7B /* XMLMappableTypesWithTransformsTests.swift */; };
 		9FEAB85D207CF63F004BCA7B /* XMLMappableTypesWithTransformsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEAB85B207CF63F004BCA7B /* XMLMappableTypesWithTransformsTests.swift */; };
 		9FEAB85E207CF63F004BCA7B /* XMLMappableTypesWithTransformsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEAB85B207CF63F004BCA7B /* XMLMappableTypesWithTransformsTests.swift */; };
@@ -257,12 +265,14 @@
 		9F34A95820377F9100BB2EBA /* Info-macOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-macOS.plist"; sourceTree = "<group>"; };
 		9F34A95F203780FF00BB2EBA /* BasicTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicTypes.swift; sourceTree = "<group>"; };
 		9F34A96F2037812200BB2EBA /* BasicTypesTestsFromXML.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicTypesTestsFromXML.swift; sourceTree = "<group>"; };
+		9F3CF05820F5F17C00EB0ABA /* Array+cdataString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+cdataString.swift"; sourceTree = "<group>"; };
 		9F47BD5C20D6C352006DBCA2 /* Dictionary+mapValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+mapValues.swift"; sourceTree = "<group>"; };
 		9F699A7920D6DAFD00A322BA /* Sequence+compactMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sequence+compactMap.swift"; sourceTree = "<group>"; };
 		9F6DE1BA2039FDE9007557E8 /* BasicTypesTestsToXML.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicTypesTestsToXML.swift; sourceTree = "<group>"; };
 		9F6DE1BE203A097A007557E8 /* XMLCustomTransformTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLCustomTransformTests.swift; sourceTree = "<group>"; };
 		9F914584203A0E9C006FC76B /* XMLDataTransformTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLDataTransformTests.swift; sourceTree = "<group>"; };
 		9F914588203A10B3006FC76B /* XMLDictionaryTransformTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLDictionaryTransformTests.swift; sourceTree = "<group>"; };
+		9F93CA5F20F4C9BF00E59D88 /* XMLCDATATransform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLCDATATransform.swift; sourceTree = "<group>"; };
 		9FEAB85B207CF63F004BCA7B /* XMLMappableTypesWithTransformsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLMappableTypesWithTransformsTests.swift; sourceTree = "<group>"; };
 		9FEF652C207BEC5C003410C9 /* GenericObjectsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericObjectsTests.swift; sourceTree = "<group>"; };
 		9FEF6530207BF3FC003410C9 /* XMLMappableExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLMappableExtensionsTests.swift; sourceTree = "<group>"; };
@@ -327,6 +337,7 @@
 		9F24103D20015ACB0089DED0 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				9F3CF05820F5F17C00EB0ABA /* Array+cdataString.swift */,
 				9F24104520015BED0089DED0 /* Dictionary+isEqual.swift */,
 				9F47BD5C20D6C352006DBCA2 /* Dictionary+mapValues.swift */,
 				9F24105A20015BEF0089DED0 /* Dictionary+XMLParser.swift */,
@@ -361,6 +372,7 @@
 				9F24104F20015BEE0089DED0 /* XMLTransformOperators.swift */,
 				9F24105B20015BEF0089DED0 /* XMLTransformType.swift */,
 				9F24105C20015BEF0089DED0 /* XMLURLTransform.swift */,
+				9F93CA5F20F4C9BF00E59D88 /* XMLCDATATransform.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -742,7 +754,9 @@
 				9F24108F20015BF00089DED0 /* XMLSerialization+ReadingOptions.swift in Sources */,
 				9F2410D320015BF00089DED0 /* XMLDictionaryTransform.swift in Sources */,
 				9F2410B720015BF00089DED0 /* XMLEnumOperators.swift in Sources */,
+				9F3CF05920F5F17C00EB0ABA /* Array+cdataString.swift in Sources */,
 				9F24109B20015BF00089DED0 /* XMLNSDecimalNumberTransform.swift in Sources */,
+				9F93CA6020F4C9BF00E59D88 /* XMLCDATATransform.swift in Sources */,
 				9F2410A320015BF00089DED0 /* Operators.swift in Sources */,
 				9F2410DF20015BF00089DED0 /* XMLDataTransform.swift in Sources */,
 				9F2410A720015BF00089DED0 /* XMLDateFormatterTransform.swift in Sources */,
@@ -783,7 +797,9 @@
 				9F24109020015BF00089DED0 /* XMLSerialization+ReadingOptions.swift in Sources */,
 				9F2410D420015BF00089DED0 /* XMLDictionaryTransform.swift in Sources */,
 				9F2410B820015BF00089DED0 /* XMLEnumOperators.swift in Sources */,
+				9F3CF05A20F5F17C00EB0ABA /* Array+cdataString.swift in Sources */,
 				9F24109C20015BF00089DED0 /* XMLNSDecimalNumberTransform.swift in Sources */,
+				9F93CA6120F4C9BF00E59D88 /* XMLCDATATransform.swift in Sources */,
 				9F2410A420015BF00089DED0 /* Operators.swift in Sources */,
 				9F2410E020015BF00089DED0 /* XMLDataTransform.swift in Sources */,
 				9F2410A820015BF00089DED0 /* XMLDateFormatterTransform.swift in Sources */,
@@ -824,7 +840,9 @@
 				9F24109120015BF00089DED0 /* XMLSerialization+ReadingOptions.swift in Sources */,
 				9F2410D520015BF00089DED0 /* XMLDictionaryTransform.swift in Sources */,
 				9F2410B920015BF00089DED0 /* XMLEnumOperators.swift in Sources */,
+				9F3CF05B20F5F17C00EB0ABA /* Array+cdataString.swift in Sources */,
 				9F24109D20015BF00089DED0 /* XMLNSDecimalNumberTransform.swift in Sources */,
+				9F93CA6220F4C9BF00E59D88 /* XMLCDATATransform.swift in Sources */,
 				9F2410A520015BF00089DED0 /* Operators.swift in Sources */,
 				9F2410E120015BF00089DED0 /* XMLDataTransform.swift in Sources */,
 				9F2410A920015BF00089DED0 /* XMLDateFormatterTransform.swift in Sources */,
@@ -865,7 +883,9 @@
 				9F24109220015BF00089DED0 /* XMLSerialization+ReadingOptions.swift in Sources */,
 				9F2410D620015BF00089DED0 /* XMLDictionaryTransform.swift in Sources */,
 				9F2410BA20015BF00089DED0 /* XMLEnumOperators.swift in Sources */,
+				9F3CF05C20F5F17C00EB0ABA /* Array+cdataString.swift in Sources */,
 				9F24109E20015BF00089DED0 /* XMLNSDecimalNumberTransform.swift in Sources */,
+				9F93CA6320F4C9BF00E59D88 /* XMLCDATATransform.swift in Sources */,
 				9F2410A620015BF00089DED0 /* Operators.swift in Sources */,
 				9F2410E220015BF00089DED0 /* XMLDataTransform.swift in Sources */,
 				9F2410AA20015BF00089DED0 /* XMLDateFormatterTransform.swift in Sources */,
@@ -984,12 +1004,15 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				ONLY_ACTIVE_ARCH = YES;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
 		9F2E94C7200152970000149B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
@@ -1017,6 +1040,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
@@ -1078,7 +1103,6 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = "XMLMapper/Info-iOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1148,7 +1172,6 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = "XMLMapper/Info-iOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "gcharita.XMLMapper-iOS";
@@ -1235,7 +1258,6 @@
 				TARGETED_DEVICE_FAMILY = 4;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
@@ -1302,7 +1324,6 @@
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
@@ -1374,7 +1395,6 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -1440,7 +1460,6 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1507,7 +1526,6 @@
 				INFOPLIST_FILE = "XMLMapper/Info-macOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "gcharita.XMLMapper-macOS";
@@ -1576,7 +1594,6 @@
 				INFOPLIST_FILE = "XMLMapper/Info-macOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "gcharita.XMLMapper-macOS";
 				PRODUCT_NAME = XMLMapper;
@@ -1639,7 +1656,6 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = "XMLMapperTests/Info-iOS.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1697,7 +1713,6 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = "XMLMapperTests/Info-iOS.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = gcharita.XMLMapperTests;
@@ -1769,7 +1784,6 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 11.2;
 			};
 			name = Debug;
 		};
@@ -1824,7 +1838,6 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 11.2;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -1881,7 +1894,6 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = "XMLMapperTests/Info-macOS.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "gcharita.XMLMapperTests-macOS";
@@ -1939,7 +1951,6 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = "XMLMapperTests/Info-macOS.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "gcharita.XMLMapperTests-macOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
